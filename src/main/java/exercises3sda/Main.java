@@ -25,5 +25,13 @@ public class Main {
         cat1.eatMouse();
         cat1.eatMouse();
 
+        Dog dog1 = new Dog("Sparta");
+        Dog dog2 = new Dog("Stark");
+        Dog dog3 = new Dog("Yoshi");
+
+        dog1.makeSound();
+        dog2.makeSound();
+        dog3.makeSound();
+        //stworzymy liste zwierzat, kotow i psow jako trening
     }
 }
