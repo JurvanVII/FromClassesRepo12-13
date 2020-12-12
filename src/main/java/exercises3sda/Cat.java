@@ -3,9 +3,9 @@ package exercises3sda;
 import lombok.Getter;
 import lombok.Setter;
 
-public class Cat {
- //   @Setter
-   // @Getter
+public class Cat implements Animal {
+    //   @Setter
+    // @Getter
     private String name;
     private Integer mouseCounter;
 
@@ -36,6 +36,7 @@ public class Cat {
         return this.mouseCounter;
     }
 
+    @Override
     public void makeSound() {
         System.out.println(this.name + "goes meooooww!");
     }

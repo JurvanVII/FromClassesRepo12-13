@@ -33,5 +33,21 @@ public class Main {
         dog2.makeSound();
         dog3.makeSound();
         //stworzymy liste zwierzat, kotow i psow jako trening
+
+        System.out.println("Ex 5");
+
+        List<Animal> animals = new ArrayList<>(); //lista tablica arrayList
+        // do animals dodajemy 3 koty i 3 psy
+        animals.add(cat1);
+        animals.add(cat2);
+        animals.add(cat3);
+        animals.add(dog1);
+        animals.add(dog2);
+        animals.add(dog3);
+
+        for (Animal animal:animals ) //Animal typ, zmienna widoczna w zasiegu petli animal,
+        {
+        
+        }
     }
 }
