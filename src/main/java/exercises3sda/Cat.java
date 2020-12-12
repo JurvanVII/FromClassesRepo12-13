@@ -3,7 +3,7 @@ package exercises3sda;
 import lombok.Getter;
 import lombok.Setter;
 
-public class Cat implements Animal {
+public class Cat implements Animal, Movable {
     //   @Setter
     // @Getter
     private String name;
@@ -48,5 +48,19 @@ public class Cat implements Animal {
         this.mouseCounter++;
 //        this.mouseCounter = this.mouseCounter + 1
         System.out.println("Zjadlem myszy " + mouseCounter);
+    }
+
+    @Override
+    public String move() {
+        System.out.println("Early Idę!");
+        return "Idę.";
+    }
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name='" + name + '\'' +
+                ", mouseCounter=" + mouseCounter +
+                '}';
     }
 }

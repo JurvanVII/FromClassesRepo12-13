@@ -53,5 +53,10 @@ public class Main {
         System.out.println("Ex 6");
         Car car1 = new Car();
         car1.move();
+
+        System.out.println("Exercise 7");
+        System.out.println(cat1.move()); // jeden jest early ide drugi ide z souta
+        System.out.println(cat1); //
+        System.out.println(cat1.toString()); // nie mam nadpisane toStringa wiec nie pojdzie // po dodaniu toString w cat z genertrate dziala
     }
 }
