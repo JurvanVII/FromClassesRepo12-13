@@ -58,5 +58,10 @@ public class Main {
         System.out.println(cat1.move()); // jeden jest early ide drugi ide z souta
         System.out.println(cat1); //
         System.out.println(cat1.toString()); // nie mam nadpisane toStringa wiec nie pojdzie // po dodaniu toString w cat z genertrate dziala
+
+        System.out.println("ex 8:");
+        //tworzymy obiekt weterynarz
+        Vet someVet = new Vet();
+        someVet.sayHello(cat2);
     }
 }
