@@ -21,5 +21,9 @@ public class Main {
             cat.makeSound();
         }
 
+        cat1.eatMouse();
+        cat1.eatMouse();
+        cat1.eatMouse();
+
     }
 }
