@@ -64,5 +64,9 @@ public class Main {
         Vet someVet = new Vet();
         someVet.sayHello(cat2);
         someVet.sayHello(dog1);
+
+        System.out.println("Ex 10");
+        someVet.universalSayHello(dog1);
+        someVet.universalSayHello(cat3);
     }
 }

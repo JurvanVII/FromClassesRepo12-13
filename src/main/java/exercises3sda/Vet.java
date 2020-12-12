@@ -9,4 +9,9 @@ public class Vet {
     public void sayHello(Dog someDog) { //java rozroznia bo ma inny argument
         System.out.println("Hello beautiful Doggy. Your name is " + someDog.getName());
     }
+
+    //zad10 Animal
+    public void universalSayHello(AbstractAnimal animalPatient) { //kot i piesa na gorze implementuja Animal
+        System.out.println("Hello " + animalPatient.getName());; //chcemy
+    }
     }

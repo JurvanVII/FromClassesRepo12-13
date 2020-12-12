@@ -3,31 +3,33 @@ package exercises3sda;
 import lombok.Getter;
 import lombok.Setter;
 
-public class Cat implements Animal, Movable {
+public class Cat extends AbstractAnimal implements Animal, Movable {
     //   @Setter
     // @Getter
-    private String name;
+//    private String name; dzieki super niepotrzebny
     private Integer mouseCounter;
 
     public Cat(String name) {
-        this.name = name;
+        super(name); //metoda super konsturkoter
+//        this.name = name; niepotrzebny od super
         this.mouseCounter = 0;
     }
 
     //2gi kosnturkotr, przyjmuj zarowno ilosc zjdzonych myszy
     public Cat(String name, Integer mouseCounter) {
-        this.name = name;
+        super(name);
+//        this.name = name; nadpisane w konstuktore, niepotrzne od super
         this.mouseCounter = mouseCounter;
     }
-
+/* nipotrzeny od super
     public void setName(String name) {
         this.name = name;
-    }
-
+    }*/
+/* niepotrzebny od super
     public String getName() {
         return this.name;
     }
-
+*/
     public void setMouseCounter(Integer mouseCounter) {
         this.mouseCounter = mouseCounter;
     }
