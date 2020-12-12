@@ -47,7 +47,11 @@ public class Main {
 
         for (Animal animal:animals ) //Animal typ, zmienna widoczna w zasiegu petli animal,
         {
-        
+            animal.makeSound();
         }
+
+        System.out.println("Ex 6");
+        Car car1 = new Car();
+        car1.move();
     }
 }
