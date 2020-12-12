@@ -7,6 +7,10 @@ public class Dog implements Animal {
         this.name = name;
     }
 
+    public String getName() {
+        return this.name; //odwoluje sie do cechy tej klasy
+    }
+
     @Override
     public void makeSound() {
         System.out.println(name + " goes WOOFF WOOOFF");

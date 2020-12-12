@@ -63,5 +63,6 @@ public class Main {
         //tworzymy obiekt weterynarz
         Vet someVet = new Vet();
         someVet.sayHello(cat2);
+        someVet.sayHello(dog1);
     }
 }
